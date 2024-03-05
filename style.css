@@ -7,9 +7,144 @@
 
 
 
+@media screen and (min-width:375px) and (max-width:425px) {
+    .nav-bar{
+        background-color: #DE6B6C;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;  
+        width: 100vw;  
+    }
+    
+    .text-li{
+        font-weight: bolder;
+        color: black;
+        font-size: 10px;
+       
+    }
+    .burger-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        
+    }
+    .burger-img{
+        background-image: url("./pexels-robin-stickel-70497.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+        width: 100vw;
+        
+    }
+    .first-container{
+        background-image: linear-gradient(to right,#ffffb3,#ffeecc,pink);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 50vh;
+        width: 100vw;       
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .lorem-heading{
+        font-size: 25px;
+        font-weight:600;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        word-spacing: 20px;
+       
+    }
+    .lorem-paragraph{
+        font-family: sans-serif;
+        width: 100vw;
+        flex-wrap: wrap;
+        font-size: 12px;    
+        
+    }
+    .button{
+        background-color: #DE6B6C;
+        color: white;
+        font-weight: 300;
+        font-size: 14px;
+        border: 0px;
+        outline: 0px;
+        width: 90px;
+        height: 30px;
+    }
+    .second-container{
+        background-image: linear-gradient(to bottom right,#ffffb3,#D48CE8);
+        height: 100vh;
+        width: 100vw;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .second-container-image1{
+        height: 170px;
+        width: 170px;
+        background-size: cover;
+        background-position: center;
+        
+    }
+  
+    .tb-images{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .topimg{
+        margin-right: 5px;
+    }
+    .second-container-image2{
+        height: 230px;
+        width: 85vw;
+        background-size: cover;
+        margin-left: 0px;
+    }
+    .third-color-container{
+        background-color: #DE6B6C;
+        color: black;
+        padding: 10px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 80vw;
 
+    }
+    .lorem-center-text{
+        font-weight: bolder;
+        color: black;
+        font-size: 20PX;
+        letter-spacing: 10px;
+    
+        
+    }
+    .arrow{
+       width: 23px;
+       margin-left: 10px;
+        
+    }
+    .arrow-text{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 30px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    .lorem-first-text{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 20px;   
+    }
+}
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:426px) and (max-width:768px) {
     .nav-bar{
         background-color: #DE6B6C;
         align-items: center;
@@ -310,6 +445,7 @@
         height: 100vh;
         background-size: cover;
         align-self: flex-end;
+        background-position: center;
     }
     .first-container{
         background-image: linear-gradient(to right,#ffffb3,#ffeecc,pink);
