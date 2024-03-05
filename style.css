@@ -5,6 +5,8 @@
     padding: 0px;
 }
 
+
+
 @media screen and (min-width:1025px) {
     .nav-bar{
         background-color: #DE6B6C;
@@ -138,3 +140,4 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
     }
 }
+
