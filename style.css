@@ -54,7 +54,7 @@
     font-weight: 500;
     height: 150px;
     margin-bottom: 40px;
-    overflow-y: hidden;
+    flex-wrap: wrap;
 }
 .button{
     background-color: #DE6B6C;
